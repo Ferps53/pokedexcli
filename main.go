@@ -1,18 +1,18 @@
 package main
 
 import (
-  "fmt"
-  "strings"
+	"fmt"
+	"strings"
 )
 
 func cleanInput(text string) []string {
 
-  text = strings.ToLower(text)
-  text = strings.TrimSpace(text)
+	text = strings.ToLower(text)
+	text = strings.TrimSpace(text)
 
-  return strings.Split(text, " ")
+	return strings.Split(text, " ")
 }
 
 func main() {
-  fmt.Println("Hello, World!")
+	fmt.Println("Hello, World!")
 }
